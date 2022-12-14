@@ -1,0 +1,33 @@
+.product-card {
+  padding: 1rem;
+  border-radius: 5px;
+  box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.3);
+}
+
+.product-card .title {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.product-card .image-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-card .image-wrapper .image {
+  width: auto;
+  height: 250px;
+}
+
+.product-card .price-container {
+  display: flex;
+}
+
+.product-card .price-container p:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+.product-card .mb-2 {
+  margin-bottom: 2rem;
+}

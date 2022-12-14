@@ -1,0 +1,10 @@
+.category {
+  max-width: 100vw;
+}
+
+.product-cards {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
